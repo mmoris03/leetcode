@@ -4,7 +4,7 @@ class Solution:
         answer = [0] * n
         for i in range(n):
             discount = 0
-            for j in range (i + 1, n):
+            for j in range (i+1, n):
                 if prices[j] <= prices[i]:
                     discount = prices[j]
                     break
