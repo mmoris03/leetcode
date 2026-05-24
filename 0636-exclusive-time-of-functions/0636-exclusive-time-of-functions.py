@@ -1,15 +1,12 @@
 class Solution:
-    def _parse_log(self, log: str) -> Tuple[int, str, int]:
-        function_id, log_type, timestamp = log.split(":")
-        return int(function_id), log_type, int(timestamp)
-
-
     def exclusiveTime(self, n: int, logs: List[str]) -> List[int]:
         times = [0] * n
         call_stack = []
         prev = 0 # to store start time of recent function
         for log in logs:
-            function_id, log_type, timestamp = self._parse_log(log)
+            function_id, log_type, timestamp = log.split(":")
+            function_id = int(function_id)
+            timestamp = int(timestamp)
             if log_type == "start":
                 if call_stack:
                     top = call_stack[-1]
