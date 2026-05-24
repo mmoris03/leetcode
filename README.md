@@ -19,4 +19,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/mmoris03/leetcode/tree/master/0146-lru-cache) |
+## Array
+|  |
+| ------- |
+| [1929-concatenation-of-array](https://github.com/mmoris03/leetcode/tree/master/1929-concatenation-of-array) |
+## Simulation
+|  |
+| ------- |
+| [1929-concatenation-of-array](https://github.com/mmoris03/leetcode/tree/master/1929-concatenation-of-array) |
 <!---LeetCode Topics End-->
