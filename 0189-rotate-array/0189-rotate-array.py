@@ -4,9 +4,9 @@ class Solution:
         Do not return anything, modify nums in-place instead.
         """
         def reverse(left:int, right:int) -> None:
-            swaps = (right - left + 1) // 2
-            for i in range(swaps):
-                nums[left + i], nums[right - i] = nums[right - i], nums[left + i]
+            while left < right:
+                nums[left], nums[right] = nums[right], nums[left]
+                left, right = left + 1, right - 1
 
         n = len(nums)
         k %= n
