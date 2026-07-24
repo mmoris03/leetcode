@@ -7,6 +7,7 @@ class Solution:
             while left < right:
                 nums[left], nums[right] = nums[right], nums[left]
                 left, right = left + 1, right - 1
+
         n = len(nums)
         k %= n
 
