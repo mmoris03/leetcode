@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/mmoris03/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0169-majority-element](https://github.com/mmoris03/leetcode/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/mmoris03/leetcode/tree/master/0189-rotate-array) |
+| [0274-h-index](https://github.com/mmoris03/leetcode/tree/master/0274-h-index) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/mmoris03/leetcode/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0485-max-consecutive-ones](https://github.com/mmoris03/leetcode/tree/master/0485-max-consecutive-ones) |
 | [0636-exclusive-time-of-functions](https://github.com/mmoris03/leetcode/tree/master/0636-exclusive-time-of-functions) |
@@ -61,12 +62,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0088-merge-sorted-array](https://github.com/mmoris03/leetcode/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/mmoris03/leetcode/tree/master/0169-majority-element) |
+| [0274-h-index](https://github.com/mmoris03/leetcode/tree/master/0274-h-index) |
 | [0645-set-mismatch](https://github.com/mmoris03/leetcode/tree/master/0645-set-mismatch) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/mmoris03/leetcode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 ## Counting Sort
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/mmoris03/leetcode/tree/master/0169-majority-element) |
+| [0274-h-index](https://github.com/mmoris03/leetcode/tree/master/0274-h-index) |
 | [1365-how-many-numbers-are-smaller-than-the-current-number](https://github.com/mmoris03/leetcode/tree/master/1365-how-many-numbers-are-smaller-than-the-current-number) |
 ## Stack
 |  |
