@@ -19,13 +19,9 @@ class RandomizedSet:
             
         val_pos = self._pos_by_val[val]
         last_val = self._list[-1]
-        if val == last_val:
-            del self._pos_by_val[val]
-        else:
-            self._list[val_pos] = last_val
-            del self._pos_by_val[val]
-            self._pos_by_val[last_val] = val_pos
-        
+        self._pos_by_val[last_val] = val_pos
+        del self._pos_by_val[val]
+        self._list[val_pos] = last_val
         self._list.pop()
         
         return True
