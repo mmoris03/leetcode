@@ -2,26 +2,28 @@ class RandomizedSet:
 
     def __init__(self):
         self._list = []
-        self._pos_by_val = {}
+        self.val_to_idx = {}
 
     def insert(self, val: int) -> bool:
-        if val in self._pos_by_val:
+        if val in self.val_to_idx:
             return False
 
-        self._pos_by_val[val] = len(self._list)
+        self.val_to_idx[val] = len(self._list)
         self._list.append(val)
 
         return True
 
     def remove(self, val: int) -> bool:
-        if val not in self._pos_by_val:
+        if val not in self.val_to_idx:
             return False
             
-        val_pos = self._pos_by_val[val]
+        val_idx = self.val_to_idx[val]
         last_val = self._list[-1]
-        self._pos_by_val[last_val] = val_pos
-        del self._pos_by_val[val]
-        self._list[val_pos] = last_val
+
+        self.val_to_idx[last_val] = val_idx
+        del self.val_to_idx[val]
+
+        self._list[val_idx] = last_val
         self._list.pop()
         
         return True
